@@ -1,5 +1,5 @@
 var mysql = require('mysql');
-
+//create the database
 var pool =  mysql.createPool({
 host : 'localhost',
 user : 'root',
